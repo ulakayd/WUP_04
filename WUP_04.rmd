@@ -1,7 +1,7 @@
 ---
 title: "WUP_04"
-author: "Put your name here!"
-date: "fall 2023"
+author: "Davy D"
+date: "Spring 2024"
 output:
   html_document:
     df_print: paged
@@ -11,7 +11,7 @@ output:
 require(knitr)
 require(tidyverse)
 require(tigerstats)
-
+GSS= read.csv("GSScsv.csv")
 ```
 
 # Introduction
@@ -25,6 +25,13 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 # Methods
 
 <!--Mention that you intend to use chatGPT to the greatest extent possible. Give credit to chatGPT when you use it to create code in your report. Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+
+We are trying to predict the WORDSUM based on schooling DEGREE.
+
+WORDSUM is a numerical variable 
+DEGREE is a categorical variable.
+
+So we use the Numberical~Cat helper file. 
 
 # Results
 
