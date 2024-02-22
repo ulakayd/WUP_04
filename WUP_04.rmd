@@ -37,6 +37,10 @@ So we use the Numberical~Cat helper file.
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
+```{r}
+boxplot(WORDSUM~DEGREE,data=GSS)
+```
+
 ## Descriptive Results
 
 ### Graphical Descriptive Results
