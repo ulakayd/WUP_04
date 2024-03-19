@@ -65,7 +65,16 @@ The table shows that, the Graduate and Bachelor have the highest average perform
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+model1 <- aov(WORDSUM~DEGREE,data=GSS)
+summary.aov(model1)
+```
 
+The P-value is 0.000236 which is less than 0.05 we reject the null hypothesis we can conclude there is some difference there is some differences in wordsum scores based on level on education. 
+
+```{r}
+plot(TukeyHSD(model1))
+```
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
