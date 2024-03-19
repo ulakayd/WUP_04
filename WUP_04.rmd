@@ -31,7 +31,7 @@ We are trying to predict the WORDSUM based on schooling DEGREE.
 WORDSUM is a numerical variable 
 DEGREE is a categorical variable.
 
-So we use the Numberical~Cat helper file. 
+So we use the Numerical~Cat helper file. 
 
 # Results
 
@@ -40,6 +40,8 @@ So we use the Numberical~Cat helper file.
 ```{r}
 boxplot(WORDSUM~DEGREE,data=GSS)
 ```
+
+The boxplot shows the people who scored the highest are Bachelor, Graduate, and Junior College and the ones that scored the lowest are HighSchool and LT High school. 
 
 ## Descriptive Results
 
