@@ -75,6 +75,13 @@ The P-value is 0.000236 which is less than 0.05 we reject the null hypothesis we
 ```{r}
 plot(TukeyHSD(model1))
 ```
+
+
+The biggest differences are between graduates and lt high school and bachelors and lt high school. 
+
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The question if there was a difference between word some and degree level earned, we have effectively bee able to prove that there is a difference between the the WORDSUM and level of DEGREE. As proven in the above graphs the Graduate and Bachelor level degrees have a higher level of wordsum compared to those in the education level of LT highschool or Highschool.. also with a p-value of 0.000236 which is less than 0.05 we where able to reject the null hypothesis proving there is a difference in wordsum and degree level.
