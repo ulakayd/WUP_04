@@ -45,13 +45,21 @@ The boxplot shows the people who scored the highest are Bachelor, Graduate, and 
 
 ## Descriptive Results
 
+
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ### Numerical Descriptive Results
 
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=GSS)
+```
+
+The table shows that, the Graduate and Bachelor have the highest average performance, and High school and LT highschool have the lowest average performance.
 
 ## Inferential Results
 
