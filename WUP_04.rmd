@@ -37,10 +37,6 @@ So we use the Numerical~Cat helper file.
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
-```{r}
-boxplot(WORDSUM~DEGREE,data=GSS)
-```
-
 ## Descriptive Results
 
 The boxplot shows the people who scored the highest are Bachelor, Graduate, and Junior College and the ones that scored the lowest are HighSchool and LT High school. 
@@ -49,6 +45,9 @@ The boxplot shows the people who scored the highest are Bachelor, Graduate, and 
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(WORDSUM~DEGREE,data=GSS)
+```
 
 ### Numerical Descriptive Results
 
